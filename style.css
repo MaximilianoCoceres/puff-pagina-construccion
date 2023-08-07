@@ -4,9 +4,10 @@
     box-sizing: border-box;
     
 }
-body{
-    scrollbar-color: blue orange;
-}
+*::-webkit-scrollbar {
+    width: 0;
+  }
+
 
 .container{
     width: 100%;
