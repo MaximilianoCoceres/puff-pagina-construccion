@@ -5,7 +5,7 @@
     
 }
 
-html{
+html,body{
     height: 100lvh;
 }
 *::-webkit-scrollbar {
