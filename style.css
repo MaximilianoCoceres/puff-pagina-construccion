@@ -1,70 +1,67 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
-html,body{
-    height: 100lvh;
+html, body {
+    height: 100vh;
+    scroll-behavior: smooth;
 }
+
 *::-webkit-scrollbar {
     width: 0;
-  }
+}
 
-
-.container{
+.background-container {
     width: 100%;
-    height: 100lvh;
-    background-attachment:fixed;
+    height: 100vh;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    scroll-behavior: smooth
-    
-
 }
 
-
-.container#fondo1{
+#fondo1 {
     background-image: url(./img/fondo1.jpg);
 }
-.container#fondo2{
+
+#fondo2 {
     background-image: url(./img/fondo2.jpg);
 }
 
-.container#fondo3{
+#fondo3 {
     background-image: url(./img/fondogeneral_puff.jpg);
     height: 100vh;
 }
 
-.container-botones{
+.container-botones {
     position: relative;
     height: 100%;
     overflow: hidden;
 }
 
-.botones{
+.botones {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    gap: .4em;
+    gap: 0.4em;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-25%);
-    
+    transform: translate(-50%, -25%);
 }
 
-.contacto{
+.contacto {
     filter: grayscale(100%);
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
-.contacto#whatsapp:hover{
+.contacto#whatsapp:hover {
     filter: grayscale(0%);
 }
-.contacto#email:hover{
+
+.contacto#email:hover {
     filter: grayscale(0%);
 }
